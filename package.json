@@ -21,7 +21,7 @@
     "slug": "^9.1.0"
   },
   "scripts": {
-    "start": "meteor run --exclude-archs web.browser.legacy,web.cordova",
+    "start": "MONGO_URL=mongodb://localhost/real meteor run --exclude-archs web.browser.legacy,web.cordova",
     "start-full": "meteor run",
     "build": "meteor build",
     "test": "echo TODO meteor test ...",
